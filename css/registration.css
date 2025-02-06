@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.form-container{
+    box-shadow: 1px 1px 15px rgba(120, 116, 116, 0.5), -1px -1px 15px rgba(120, 116, 116, 0.5);
+}
