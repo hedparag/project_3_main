@@ -12,3 +12,8 @@ html, body{
 .form-container{
     box-shadow: 1px 1px 15px rgba(120, 116, 116, 0.5), -1px -1px 15px rgba(120, 116, 116, 0.5);
 }
+
+.alert-box{
+    min-width: 600px !important;
+    box-shadow: 1px 1px 15px rgba(120, 116, 116, 0.5), -1px -1px 15px rgba(120, 116, 116, 0.5) !important;
+}
