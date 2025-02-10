@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 function check_validation() {
+=======
+//  Bootstrap form validation
+function check_validation(){
+>>>>>>> feature/login
     (() => {
         'use strict'
 
@@ -15,6 +20,48 @@ function check_validation() {
 
                 form.classList.add('was-validated')
             }, false)
+<<<<<<< HEAD
         });
     })();
 }
+=======
+        })
+    })();
+};
+
+$(document).ready(function () {
+    $('#reg-btn').on('click', function () {
+        window.location.href = 'singin.html'
+    });
+
+    $('#singup-btn').on('click', function () {
+        window.location.replace('singup.html');
+    });
+
+    $('#singin-btn').on('click', function () {
+        window.location.replace('singin.html');
+    });
+
+    $('#close-btn').on('click', function () {
+        window.location.replace('index.html');
+    });
+
+    $('.see-more-btn').on('click', function () {
+        $(this).parent().parent().siblings().addClass('d-none');
+        $(this).addClass('d-none');
+        $(this).siblings('.btn').removeClass("d-none");
+    });
+
+    $('.view-all-btn').on('click', function () {
+        $(this).parent().parent().siblings().removeClass('d-none');
+        $(this).siblings('.btn').removeClass("d-none");
+        $(this).addClass('d-none');
+    });
+
+    //  On Read Open pdf in a new tab
+    // $('.custom-read-btn').on('click', function () {
+    //     var book_name = $(this).attr('bookName');
+    //     window.open(`${book_name}`,'_blank');
+    // });
+});
+>>>>>>> feature/login
